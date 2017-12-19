@@ -1,0 +1,60 @@
+2017-09-22T19:33:40.051Z INFO Ensure step 2 jar file s3://rohitpbucket/hadoop-mapreduce-examples-2.7.4.jar
+2017-09-22T19:33:41.710Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-18MKJ84J4MV3K/hadoop-mapreduce-examples-2.7.4.jar wordcount s3://rohitpbucket/input/hw1.txt s3://rohitpatnaik/output'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-18MKJ84J4MV3K/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-34-186
+  NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-18MKJ84J4MV3K
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-18MKJ84J4MV3K/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-18MKJ84J4MV3K/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-18MKJ84J4MV3K
+INFO ProcessRunner started child process 8459 :
+hadoop    8459  3239  0 19:33 ?        00:00:00 bash /usr/lib/hadoop/bin/hadoop jar /mnt/var/lib/hadoop/steps/s-18MKJ84J4MV3K/hadoop-mapreduce-examples-2.7.4.jar wordcount s3://rohitpbucket/input/hw1.txt s3://rohitpatnaik/output
+2017-09-22T19:33:45.749Z INFO HadoopJarStepRunner.Runner: startRun() called for s-18MKJ84J4MV3K Child Pid: 8459
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-18MKJ84J...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-18MKJ84J...
+INFO total process run time: 188 seconds
+2017-09-22T19:36:52.021Z INFO Step created jobs: job_1506108661702_0001
+2017-09-22T19:36:52.021Z INFO Step succeeded with exitCode 0 and took 188 seconds

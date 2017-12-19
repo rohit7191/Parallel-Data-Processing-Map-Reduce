@@ -1,0 +1,7 @@
+2017-12-10 19:33:04,195 INFO com.amazon.ws.emr.hadoop.fs.EmrFileSystem (main): Consistency disabled, using com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem as filesystem implementation
+2017-12-10 19:33:04,421 INFO amazon.emr.metrics.MetricsSaver (main): MetricsConfigRecord disabledInCluster: false instanceEngineCycleSec: 60 clusterEngineCycleSec: 60 disableClusterEngine: false maxMemoryMb: 3072 maxInstanceCount: 500 lastModified: 1512934265805 
+2017-12-10 19:33:04,422 INFO amazon.emr.metrics.MetricsSaver (main): Created MetricsSaver j-32MTALGMRPVHE:i-0d50e1af09edb1c99:RunJar:04736 period:60 /mnt/var/em/raw/i-0d50e1af09edb1c99_20171210_RunJar_04736_raw.bin
+2017-12-10 19:33:04,977 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://elasticmapreduce/libs/state-pusher/0.1/fetch' for reading
+2017-12-10 19:33:05,018 INFO amazon.emr.metrics.MetricsSaver (main): Thread 1 created MetricsLockFreeSaver 1
+2017-12-10 19:33:08,276 INFO com.amazon.ws.emr.hadoop.fs.EmrFileSystem (main): Consistency disabled, using com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem as filesystem implementation
+2017-12-10 19:33:08,951 INFO com.amazon.ws.emr.hadoop.fs.s3n.S3NativeFileSystem (main): Opening 's3://us-east-1.elasticmapreduce/libs/state-pusher/0.1/hadoop-state-pusher-1.8.0-1.noarch.rpm' for reading

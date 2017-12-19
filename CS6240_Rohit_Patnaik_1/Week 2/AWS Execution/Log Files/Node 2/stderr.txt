@@ -1,0 +1,5 @@
++ SVC_FILE=/mnt/var/lib/hadoop-state-pusher/run-hadoop-state-pusher
+++ dirname /mnt/var/lib/hadoop-state-pusher/run-hadoop-state-pusher
++ sudo -u hadoop mkdir -p /mnt/var/lib/hadoop-state-pusher
++ echo 1
+Command exiting with ret '0'
